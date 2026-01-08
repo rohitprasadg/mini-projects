@@ -1,0 +1,117 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family:sans-serif;
+}
+body
+{
+  background: #116396;
+  background-image: url("cloud1.jpg");
+  background-size: cover;
+}
+.container-fluid
+{
+  width: 400px;
+  margin: 60px auto;
+  margin-top: 20px;
+  margin-bottom:-15px;
+  padding: 10px;
+}
+.inputs 
+{
+  padding: 2rem 0 2rem 0;
+  text-align: center;
+  justify-content: center;
+  background: white;
+  width:  500px;
+  border-radius: 10px;
+}
+.inputs input[type="text"] 
+{
+  height: 4rem;
+  width: 20rem;
+  background: #212121;
+  font-weight: bold;
+  font-size: 1rem;
+  padding: 10px;
+  border: none;
+  background-color: transparent;
+  border: 2px solid #c2c2c2;
+  border-radius: 2px;
+  margin-right:4px ;
+}
+.inputs input[type="submit"] 
+{
+  height: 3rem;
+  width: 6rem;
+  background: #0a67ca;
+  font-weight: bold;
+  color: white;
+  font-size: 1rem;
+  margin-top: 20px;
+  border: none;
+  border-radius: 50%;
+}
+.display 
+{
+  text-align: center;
+  color: #16a864;
+  width:  500px;
+}
+.wrapper 
+{
+  margin: 0 9rem;
+  background-color: white;
+  height: 45vh;
+  margin: 50px auto;
+  border-radius: 2px;
+}
+
+.wrapper h2
+{
+  padding: 5px 0;
+  text-align: center;
+  background: #0a67ca;
+  color: white;
+  font-family: sans-serif;
+}
+.wrapper p
+{
+  margin:20px 50px;
+  margin-right: 20px;
+  text-align: left;
+  color: #04214c;
+  font-size:23px;
+}
+.wrapper h2 span
+{
+  font-size: 26px;
+  color:aqua;
+}
+.wrapper p span
+{
+  color: aqua;
+  font-size: 25px;
+}
+
+#cityoutput{ 
+  height: 40px;
+}
+
+.fweather{
+  margin-left:100px;
+  font-family: sans-serif;
+  text-align: center;
+  margin-top: 20px;
+  color:antiquewhite
+}
+
+.credits{
+  font-size: 20px;
+  font-family:sans-serif;
+  text-align: center;
+  margin-top:0px;
+  color:darkslategray
+
+}
